@@ -13,4 +13,8 @@ export class ProductService{
     getAll():Observable<any>{
       return this.http.get('http://localhost:9090/product/all');
     }
+
+    saveProduct(product:Object):Observable<Object>{
+      return this.http.post('http://localhost:9090/product/all/add',product);
+    }
 }

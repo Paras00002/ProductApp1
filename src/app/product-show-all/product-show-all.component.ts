@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Product } from './model/product';
-import { ProductService } from './service/product.service';
+import { ProductService } from '../service/product.service';
 
 @Component({
   selector: 'app-product-show-all',
