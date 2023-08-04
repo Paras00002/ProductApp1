@@ -1,0 +1,7 @@
+<p>product-show-all works!</p>
+
+<ol *ngFor="let p of prdlist|async">
+  <li>
+      {{p.id}} {{p.name}} {{p.cost}}
+  </li>
+</ol>
